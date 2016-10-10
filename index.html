@@ -1,1 +1,23 @@
 <!doctype html>
+<html ng-app="iApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>Interactive App</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	<body>
+		<div ng-view></div>
+	</body>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/angular/angular-route.js"></script>
+	<script type="text/javascript" src="controllers/app.js"></script>
+</html>
